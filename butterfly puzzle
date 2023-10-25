@@ -1,0 +1,18 @@
+<body>
+  <div id="gridContainer">
+    <div id="intro">Hello, I'm a puzzle bot!</div>
+    <div id="puzzle">/* Puzzle image here */</div>
+    <div id="date">Assigned date: DD/MM/YYYY</div>
+  </div>
+</body>
+#gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+#intro, #puzzle, #date {
+  border: 1px solid black;
+  padding: 20px;
